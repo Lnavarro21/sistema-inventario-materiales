@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "nombre": "EJEMPLO DE MATERIAL",
+    "marca": "GENERICO",
+    "descripcion": "Este es un dato de prueba generado automáticamente",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 10,
+    "notas": "Archivo regenerado por el sistema"
+  },
+  {
+    "id": 2,
+    "nombre": "BATERIA",
+    "marca": "DURACELL",
+    "descripcion": "9 V.",
+    "unidad": "UNID",
+    "ubicacion": "Suelto",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 3,
+    "nombre": "CD-RW",
+    "marca": "IMATION",
+    "descripcion": "700MB /80MIN",
+    "unidad": "UNID",
+    "ubicacion": "Suelto",
+    "saldo": 62,
+    "notas": ""
+  },
+  {
+    "id": 4,
+    "nombre": "CHINCHES",
+    "marca": "THUMB TACKS",
+    "descripcion": "#1",
+    "unidad": "CAJA x100",
+    "ubicacion": "Suelto",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 5,
+    "nombre": "CINTA AISLANTE",
+    "marca": "TECNOFAN 820",
+    "descripcion": "GUTAPERCHA 19 mm x 20 m",
+    "unidad": "UNID",
+    "ubicacion": "Suelto",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 6,
+    "nombre": "CINTA MASKING TAPE",
+    "marca": "PEGAFAN",
+    "descripcion": "MULTIUSO 500 48 mm x 50.3 M",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 3,
+    "notas": ""
+  },
+  {
+    "id": 7,
+    "nombre": "CINTA MASKING TAPE",
+    "marca": "PEGAFAN",
+    "descripcion": "MULTIUSO 500 48 mm x 36.58 M",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 4,
+    "notas": ""
+  },
+  {
+    "id": 8,
+    "nombre": "CINTA MASKING TAPE",
+    "marca": "PEGAFAN",
+    "descripcion": "MULTIUSO 500 18 mm x 36.58 M",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 9,
+    "nombre": "CLIPS ",
+    "marca": "WINGO",
+    "descripcion": "METALICOS",
+    "unidad": "CAJA x 100",
+    "ubicacion": "Suelto",
+    "saldo": 5,
+    "notas": ""
+  },
+  {
+    "id": 10,
+    "nombre": "CLIPS MARIPOSA",
+    "marca": "WINGO",
+    "descripcion": "N° 2",
+    "unidad": " CAJA x 50",
+    "ubicacion": "Suelto",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 11,
+    "nombre": "CUADERNOS",
+    "marca": "IRIS COLORS",
+    "descripcion": "CUADRICULADO",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 12,
+    "nombre": "CUADERNOS",
+    "marca": "MINERVA",
+    "descripcion": "CUADRICULADO",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 13,
+    "nombre": "CUADERNOS",
+    "marca": "JUSTUS",
+    "descripcion": "ESPIRALADO",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 14,
+    "nombre": "CUTTER",
+    "marca": "MEMORIS - PRECIUS",
+    "descripcion": "",
+    "unidad": "UND ",
+    "ubicacion": "Suelto",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 15,
+    "nombre": "MICA + CLIP (FILE)",
+    "marca": "DURACLIP",
+    "descripcion": "",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 16,
+    "nombre": "DVD",
+    "marca": "IMATION",
+    "descripcion": "4.7 GB",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 10,
+    "notas": ""
+  },
+  {
+    "id": 17,
+    "nombre": "DVD",
+    "marca": "SONY",
+    "descripcion": "4.7GB",
+    "unidad": "UNID",
+    "ubicacion": "Suelto",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 18,
+    "nombre": "ENGRAMPADOR",
+    "marca": "RAPID",
+    "descripcion": "50 HOJAS",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 19,
+    "nombre": "FASTER",
+    "marca": "WARRIOR",
+    "descripcion": "",
+    "unidad": " CAJA x 50",
+    "ubicacion": "Suelto",
+    "saldo": 7,
+    "notas": ""
+  },
+  {
+    "id": 20,
+    "nombre": "FOLDER MANILA",
+    "marca": "GRAPHOS",
+    "descripcion": "TAMAÑO A-4",
+    "unidad": "PAQ x 50",
+    "ubicacion": "Suelto",
+    "saldo": 5,
+    "notas": ""
+  },
+  {
+    "id": 21,
+    "nombre": "FOLDER MANILA",
+    "marca": "GRAFI PAPEL",
+    "descripcion": "TAMAÑO A-4",
+    "unidad": "PAQ x 25",
+    "ubicacion": "Suelto",
+    "saldo": 4,
+    "notas": "* 1 ESTÁ ABIERTO"
+  },
+  {
+    "id": 22,
+    "nombre": "INDEX TABS",
+    "marca": "ARTESCO",
+    "descripcion": "ESTANDAR 15 cm",
+    "unidad": "CAJA x10",
+    "ubicacion": "Suelto",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 23,
+    "nombre": "LAPICERO",
+    "marca": "PILOT",
+    "descripcion": "AZUL /  BPS-GP-FINE",
+    "unidad": "UNIDAD",
+    "ubicacion": "Suelto",
+    "saldo": 7,
+    "notas": "*FALTAN 4"
+  },
+  {
+    "id": 24,
+    "nombre": "LAPICERO",
+    "marca": "PILOT",
+    "descripcion": "NEGRO /  BPS-GP-FINE",
+    "unidad": "UNIDAD",
+    "ubicacion": "Suelto",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 25,
+    "nombre": "LAPIZ",
+    "marca": "MONGOL",
+    "descripcion": "N° 2",
+    "unidad": "UNID",
+    "ubicacion": "Suelto",
+    "saldo": 60,
+    "notas": ""
+  },
+  {
+    "id": 26,
+    "nombre": "LAPIZ",
+    "marca": "LAYCONSA",
+    "descripcion": "2 B",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 12,
+    "notas": ""
+  },
+  {
+    "id": 27,
+    "nombre": "PERFORADOR",
+    "marca": "RAPID",
+    "descripcion": "EC20",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 28,
+    "nombre": "PERFORADOR",
+    "marca": "LEITZ",
+    "descripcion": 5138,
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 29,
+    "nombre": "PILA",
+    "marca": "SONY",
+    "descripcion": "CR2032 LITIO 3V",
+    "unidad": "UNID",
+    "ubicacion": "Suelto",
+    "saldo": 5,
+    "notas": ""
+  },
+  {
+    "id": 30,
+    "nombre": "PILA AA",
+    "marca": "DURACELL",
+    "descripcion": "1.5 V",
+    "unidad": "UNID",
+    "ubicacion": "Suelto",
+    "saldo": 18,
+    "notas": ""
+  },
+  {
+    "id": 31,
+    "nombre": "PILA AAA",
+    "marca": "DURACELL",
+    "descripcion": "1.5 V",
+    "unidad": "UNID",
+    "ubicacion": "Suelto",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 32,
+    "nombre": "PLUMON AZUL",
+    "marca": "FABER CASTELL",
+    "descripcion": "PARA PIZARRA",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 12,
+    "notas": ""
+  },
+  {
+    "id": 33,
+    "nombre": "PLUMON NEGRO",
+    "marca": "FABER CASTELL",
+    "descripcion": "PARA PIZARRA",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 12,
+    "notas": ""
+  },
+  {
+    "id": 34,
+    "nombre": "PLUMON ROJO",
+    "marca": "FABER CASTELL",
+    "descripcion": "PARA PIZARRA",
+    "unidad": "UNID",
+    "ubicacion": "Suelto",
+    "saldo": 12,
+    "notas": ""
+  },
+  {
+    "id": 35,
+    "nombre": "PLUMON VERDE",
+    "marca": "FABER CASTELL",
+    "descripcion": "PARA PIZARRA",
+    "unidad": "UND",
+    "ubicacion": "Suelto",
+    "saldo": 12,
+    "notas": ""
+  },
+  {
+    "id": 36,
+    "nombre": "PORTAPAPELES (MICAS)",
+    "marca": "ARTESCO",
+    "descripcion": "CLASSIC PVC / A-4",
+    "unidad": "PAQ x 10",
+    "ubicacion": "Suelto",
+    "saldo": 4,
+    "notas": ""
+  },
+  {
+    "id": 37,
+    "nombre": "PORTAPAPELES (MICAS)",
+    "marca": "VINIFAN",
+    "descripcion": "TAMAÑO A-4",
+    "unidad": "PAQ x 10",
+    "ubicacion": "Mueble",
+    "saldo": 8,
+    "notas": ""
+  },
+  {
+    "id": 38,
+    "nombre": "POST IT",
+    "marca": "POST IT",
+    "descripcion": "PAQUETES X 5 UND.",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 39,
+    "notas": ""
+  },
+  {
+    "id": 39,
+    "nombre": "POST IT",
+    "marca": "POST IT",
+    "descripcion": "SUELTOS",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 40,
+    "nombre": "REGLAS",
+    "marca": "ARTESCO",
+    "descripcion": "30 CM",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 5,
+    "notas": ""
+  },
+  {
+    "id": 41,
+    "nombre": "RESALTADOR",
+    "marca": "FABER CASTELL",
+    "descripcion": "COLOR AMARILLO",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 61,
+    "notas": "* 6 CAJAS DE 10"
+  },
+  {
+    "id": 42,
+    "nombre": "SEPARADORES INDEX",
+    "marca": "ARTESCO",
+    "descripcion": "5 DIVISIONES COLORES",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 4,
+    "notas": ""
+  },
+  {
+    "id": 43,
+    "nombre": "SEPARADORES INDEX",
+    "marca": "DURABLE",
+    "descripcion": "A-4 / DIVISIONES A-Z",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 21,
+    "notas": ""
+  },
+  {
+    "id": 44,
+    "nombre": "SOBRE MANILA",
+    "marca": "GRAFI PAPEL",
+    "descripcion": "TAMAÑO A-4",
+    "unidad": "PAQ x 50",
+    "ubicacion": "Mueble",
+    "saldo": 20,
+    "notas": ""
+  },
+  {
+    "id": 45,
+    "nombre": "SOBRE MANILA",
+    "marca": "GALLO",
+    "descripcion": "TAMAÑO A-4",
+    "unidad": "PAQ x 50",
+    "ubicacion": "Mueble",
+    "saldo": 5,
+    "notas": ""
+  },
+  {
+    "id": 46,
+    "nombre": "SOBRES",
+    "marca": "GALLO",
+    "descripcion": "OFICIO / BLANCO / 75 gr",
+    "unidad": "PAQ x 50",
+    "ubicacion": "Mueble",
+    "saldo": 2,
+    "notas": "* ESTÁ ABIERTO"
+  },
+  {
+    "id": 47,
+    "nombre": "SOBRES TEXTURADOS",
+    "marca": "FOX RIVER",
+    "descripcion": "",
+    "unidad": "PAQ x 25",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 48,
+    "nombre": "TAJADOR DE ESCRITORIO",
+    "marca": "CARL",
+    "descripcion": "ANGEL - 5",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 49,
+    "nombre": "VINIFAN",
+    "marca": "VINIFAN",
+    "descripcion": "OFICIO",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 50,
+    "nombre": "MICA + CLIP (FILE)",
+    "marca": "VINIFILE",
+    "descripcion": "",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 16,
+    "notas": ""
+  },
+  {
+    "id": 51,
+    "nombre": "ALCOHOL ISOPROPILICO",
+    "marca": "DARYZA",
+    "descripcion": "53° x LITRO",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 52,
+    "nombre": "PAPEL SEDA",
+    "marca": "BENJI",
+    "descripcion": "5 PLIEGOS",
+    "unidad": "PAQUETE",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 53,
+    "nombre": "FRANELA",
+    "marca": "SIN MARCA",
+    "descripcion": "COLOR ROJO",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 54,
+    "nombre": "BANDERIT POST IT",
+    "marca": "POST IT",
+    "descripcion": "COLOR ROJO",
+    "unidad": "CAJA x 50",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 55,
+    "nombre": "HOJAS BOND",
+    "marca": "ATLAS",
+    "descripcion": "A 4",
+    "unidad": "PAQ x 500",
+    "ubicacion": "Mueble",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 56,
+    "nombre": "HOJAS BOND",
+    "marca": "MILLENIUM",
+    "descripcion": "A 4",
+    "unidad": "PAQ x 500",
+    "ubicacion": "Mueble",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 57,
+    "nombre": "HOJAS BOND",
+    "marca": "REPORT",
+    "descripcion": "A 4",
+    "unidad": "PAQ x 500",
+    "ubicacion": "Mueble",
+    "saldo": 0,
+    "notas": ""
+  },
+  {
+    "id": 58,
+    "nombre": "HOJAS BOND",
+    "marca": "CHAMEX",
+    "descripcion": "A 4",
+    "unidad": "PAQ x 500",
+    "ubicacion": "Mueble",
+    "saldo": 7,
+    "notas": ""
+  },
+  {
+    "id": 59,
+    "nombre": "TONER CE505X",
+    "marca": "HP",
+    "descripcion": "TONER NEGRO HP",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 60,
+    "nombre": "TONER CF283A",
+    "marca": "XEROX",
+    "descripcion": "TONER NEGRO XEROX",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 61,
+    "nombre": "TONER ACULASER C1100",
+    "marca": "EPSON",
+    "descripcion": "TONER NEGRO",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 62,
+    "nombre": "TONER ACULASER C1101",
+    "marca": "EPSON",
+    "descripcion": "TONER CYAN",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 63,
+    "nombre": "TONER ACULASER C1102",
+    "marca": "EPSON",
+    "descripcion": "TONER MAGENTA",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 64,
+    "nombre": "TONER ACULASER C1103",
+    "marca": "EPSON",
+    "descripcion": "TONER AMARILLO",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 65,
+    "nombre": "CINTAS",
+    "marca": "IMATION",
+    "descripcion": "CINTAS BLACK WATCH ULTRIUM LTO 2",
+    "unidad": "CAJA X 5",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 66,
+    "nombre": "CINTAS",
+    "marca": "IMATION",
+    "descripcion": "CINTAS ULTRIUM LTO 1",
+    "unidad": "CAJA X 5",
+    "ubicacion": "Mueble",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 67,
+    "nombre": "FOLDER MANILA",
+    "marca": "GRAFI PAPEL",
+    "descripcion": "TAMAÑO A-4",
+    "unidad": "CAJA X 500",
+    "ubicacion": "Mueble",
+    "saldo": 3,
+    "notas": ""
+  },
+  {
+    "id": 68,
+    "nombre": "GRAPAS",
+    "marca": "RAPID",
+    "descripcion": "CAJA DE 5000 UNIDADES",
+    "unidad": "CAJA X 5000",
+    "ubicacion": "Mueble",
+    "saldo": 4,
+    "notas": ""
+  },
+  {
+    "id": 69,
+    "nombre": "GRAPAS",
+    "marca": "ARTESCO",
+    "descripcion": "CAJA DE 5000 UNIDADES",
+    "unidad": "CAJA X 5000",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 70,
+    "nombre": "GOMA EN BARRA",
+    "marca": "UHU",
+    "descripcion": "",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 71,
+    "nombre": "PLUMON INDELEBLE",
+    "marca": "FABER CASTELL",
+    "descripcion": "PLUMON DE TINTA INDELEBLE",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 2,
+    "notas": ""
+  },
+  {
+    "id": 72,
+    "nombre": "PLUMON NEGRO",
+    "marca": "FABER CASTELL",
+    "descripcion": "PARA PIZARRA",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 4,
+    "notas": ""
+  },
+  {
+    "id": 73,
+    "nombre": "PLUMON ROJO",
+    "marca": "FABER CASTELL",
+    "descripcion": "PARA PIZARRA",
+    "unidad": "UNID",
+    "ubicacion": "Mueble",
+    "saldo": 4,
+    "notas": ""
+  },
+  {
+    "id": 74,
+    "nombre": "PLUMON VERDE",
+    "marca": "FABER CASTELL",
+    "descripcion": "PARA PIZARRA",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 6,
+    "notas": ""
+  },
+  {
+    "id": 75,
+    "nombre": "PORTACLIPS",
+    "marca": "LAYCONSA",
+    "descripcion": "",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 76,
+    "nombre": "PORTACLIPS",
+    "marca": "ARTESCO",
+    "descripcion": "",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 1,
+    "notas": ""
+  },
+  {
+    "id": 77,
+    "nombre": "MOTA DE PIZARRA",
+    "marca": "ARTESCO",
+    "descripcion": "",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 7,
+    "notas": ""
+  },
+  {
+    "id": 78,
+    "nombre": "SILICONA",
+    "marca": "COMPUCLEANER",
+    "descripcion": "",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 5,
+    "notas": ""
+  },
+  {
+    "id": 79,
+    "nombre": "ROLLER BALL PEN",
+    "marca": "PILOT",
+    "descripcion": "",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 144,
+    "notas": ""
+  },
+  {
+    "id": 80,
+    "nombre": "ARCHIVADORES",
+    "marca": "PAGODA",
+    "descripcion": "DE PALANCA",
+    "unidad": "UND",
+    "ubicacion": "Mueble",
+    "saldo": 0,
+    "notas": ""
+  }
+]

@@ -1,0 +1,55 @@
+/* Variables de color USMP */
+:root {
+    --usmp-red: #CC0000;
+    --usmp-dark-red: #a30000;
+    --usmp-gray: #f4f6f9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--usmp-gray);
+}
+
+/* Header Principal */
+.usmp-header {
+    background-color: var(--usmp-red);
+    border-bottom: 3px solid var(--usmp-dark-red);
+    color: white;
+}
+
+/* Encabezado de la Tabla */
+.usmp-table-header {
+    background-color: var(--usmp-red);
+    color: white;
+}
+.usmp-table-header th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    border-bottom: none;
+}
+
+/* Botones */
+.btn-usmp-red {
+    background-color: var(--usmp-red);
+    color: white;
+    border: none;
+}
+.btn-usmp-red:hover {
+    background-color: var(--usmp-dark-red);
+    color: white;
+}
+
+.btn-usmp-dark {
+    background-color: #333;
+    color: white;
+}
+.btn-usmp-dark:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* Utilidades */
+.text-usmp-red { color: var(--usmp-red) !important; }
+.badge-ubicacion { font-size: 0.85em; padding: 5px 10px; }
