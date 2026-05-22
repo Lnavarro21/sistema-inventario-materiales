@@ -1,6 +1,5 @@
 const Material = require('../models/materialModel');
 
-// Controlador para obtener materiales
 exports.getAllMaterials = async (req, res) => {
     try {
         const materiales = await Material.getAll();
@@ -11,7 +10,6 @@ exports.getAllMaterials = async (req, res) => {
     }
 };
 
-// Controlador para crear material
 exports.createMaterial = async (req, res) => {
     try {
         const nuevoMaterial = await Material.create(req.body);

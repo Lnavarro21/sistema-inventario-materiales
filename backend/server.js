@@ -12,13 +12,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '../frontend')));
 
-// ==============================
-// 🔐 RUTA 1: AUTENTICACIÓN
-// ==============================
+// AUTENTICACIÓN
 app.post('/api/auth/login', async (req, res) => {
     const { password } = req.body;
     try {
-        // Comparamos la contraseña ingresada con el Hash guardado en el .env
         const match = await bcrypt.compare(password, process.env.PASSWORD_HASH);
         if (match) {
             res.json({ success: true, message: 'Autenticación exitosa' });
@@ -30,9 +27,8 @@ app.post('/api/auth/login', async (req, res) => {
     }
 });
 
-// ==============================
-// 📦 RUTAS 2: CRUD DE INVENTARIO
-// ==============================
+
+// CRUD DE INVENTARIO
 app.get('/api/materiales', (req, res) => {
     db.all("SELECT * FROM materiales ORDER BY id DESC", [], (err, rows) => {
         if (err) return res.status(500).json({ success: false, error: err.message });
@@ -65,7 +61,6 @@ app.delete('/api/materiales/:id', (req, res) => {
     });
 });
 
-// Renderizar la SPA
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, '../frontend/views/index.html')));
 
 app.listen(PORT, () => console.log(`[🚀] Sistema corriendo en puerto ${PORT}`));

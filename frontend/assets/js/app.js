@@ -1,12 +1,11 @@
 let dbMateriales = [];
 let myModal = null;
-let chart1, chart2, chart3; // Variables para destruir gráficos viejos al recargar
+let chart1, chart2, chart3; 
 
 document.addEventListener('DOMContentLoaded', () => {
     myModal = new bootstrap.Modal(document.getElementById('modalMaterial'));
     document.getElementById('searchInput').addEventListener('keyup', (e) => renderTabla(e.target.value));
 
-    // 🔒 PERSISTENCIA DE SESIÓN: Si ya nos logueamos, saltamos la pantalla de login
     if (sessionStorage.getItem('usmp_auth') === 'true') {
         document.getElementById('login-screen').style.display = 'none';
         document.getElementById('app-screen').style.display = 'flex';
@@ -34,7 +33,7 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
         const data = await res.json();
 
         if (data.success) {
-            sessionStorage.setItem('usmp_auth', 'true'); // Guardamos la sesión
+            sessionStorage.setItem('usmp_auth', 'true'); 
             ejecutarTransicionCinematografica();
         } else {
             Swal.fire({ icon: 'error', title: 'Acceso Denegado', text: 'Contraseña incorrecta' });
@@ -62,7 +61,7 @@ function ejecutarTransicionCinematografica() {
 }
 
 function logout() {
-    sessionStorage.removeItem('usmp_auth'); // Destruimos la sesión
+    sessionStorage.removeItem('usmp_auth'); 
     document.getElementById('password').value = '';
     const btn = document.querySelector('#loginForm button');
     btn.innerHTML = 'Ingresar Segur@ <i class="fa-solid fa-arrow-right ms-2"></i>';
@@ -83,7 +82,6 @@ function switchTab(tab, el) {
     document.querySelectorAll('.view-section').forEach(sec => sec.classList.remove('active'));
     document.getElementById('sec-' + tab).classList.add('active');
 
-    // Refrescar gráficos si entramos al dashboard
     if (tab === 'dashboard') actualizarDashboard();
 }
 
@@ -116,7 +114,7 @@ function renderTabla(filtro = '') {
     if(filtrados.length === 0) return tbody.innerHTML = '<tr><td colspan="6" class="text-center py-4">No hay materiales registrados.</td></tr>';
 
     filtrados.forEach(m => {
-        // Si es 0 es Agotado (Rojo), si es menor a 10 es Crítico (Naranja/Warning), sino Normal (Oscuro)
+    
         const stockClass = m.saldo === 0 ? 'text-danger fw-bold' : (m.saldo < 10 ? 'text-warning fw-bold' : 'text-dark');
         tbody.innerHTML += `
             <tr>
@@ -155,7 +153,7 @@ function editarMaterial(id) {
     myModal.show();
 }
 
-// BOTÓN GUARDAR REPARADO (CON TRY/CATCH Y ALERTAS)
+// BOTÓN GUARDAR 
 async function guardarMaterial() {
     const id = document.getElementById('itemId').value;
     const btnSave = document.getElementById('btnGuardar');
@@ -187,7 +185,7 @@ async function guardarMaterial() {
         if (result.success) {
             myModal.hide();
             Swal.fire({ icon: 'success', title: 'Guardado', timer: 1500, showConfirmButton: false });
-            await cargarData(); // Espera a que cargue la data nueva
+            await cargarData(); 
         } else {
             Swal.fire('Error de Base de Datos', result.message || 'No se pudo guardar', 'error');
         }
@@ -226,9 +224,7 @@ async function eliminarMaterial(id) {
 // 4. DASHBOARD TIPO FIIX (GRÁFICOS PRO)
 // ==========================================
 function actualizarDashboard() {
-    // Calcular KPIs
     const activos = dbMateriales.length;
-    // AQUÍ ESTÁ EL CAMBIO: m.saldo < 10
     const stockCritico = dbMateriales.filter(m => m.saldo > 0 && m.saldo < 10).length;
     const agotados = dbMateriales.filter(m => m.saldo === 0).length;
     const stockTotal = dbMateriales.reduce((acc, val) => acc + val.saldo, 0);
@@ -238,12 +234,11 @@ function actualizarDashboard() {
     document.getElementById('kpi-agotados').innerText = agotados;
     document.getElementById('kpi-totalstock').innerText = stockTotal;
 
-    // Destruir gráficos anteriores si existen
     if(chart1) chart1.destroy();
     if(chart2) chart2.destroy();
     if(chart3) chart3.destroy();
 
-    // Preparar Data para Gráficos
+
     let ubicacionMueble = dbMateriales.filter(m => m.ubicacion === 'Mueble').length;
     let ubicacionSuelto = dbMateriales.filter(m => m.ubicacion === 'Suelto').length;
 
@@ -254,7 +249,6 @@ function actualizarDashboard() {
     });
     const topMarcas = Object.entries(marcas).sort((a,b) => b[1] - a[1]).slice(0, 5);
 
-    // Gráfico 1: Pie Chart (Prioridad / Estado)
     chart1 = new Chart(document.getElementById('chartPie'), {
         type: 'pie',
         data: {
@@ -268,7 +262,7 @@ function actualizarDashboard() {
         options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
     });
 
-    // Gráfico 2: Horizontal Bar (Tipo de Ubicación)
+  
     chart2 = new Chart(document.getElementById('chartBarType'), {
         type: 'bar',
         data: {
@@ -283,7 +277,7 @@ function actualizarDashboard() {
         options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
     });
 
-    // Gráfico 3: Vertical Bar (Top Marcas)
+   
     chart3 = new Chart(document.getElementById('chartBarUsers'), {
         type: 'bar',
         data: {

@@ -1,7 +1,6 @@
 const db = require('../config/db');
 
 const Material = {
-    // Obtener todos los materiales
     getAll: () => {
         return new Promise((resolve, reject) => {
             db.all("SELECT * FROM materiales ORDER BY id DESC", [], (err, rows) => {
@@ -11,7 +10,6 @@ const Material = {
         });
     },
 
-    // Crear un nuevo material
     create: (data) => {
         return new Promise((resolve, reject) => {
             const { codigo, nombre, marca, descripcion, unidad, ubicacion, estado, stock_actual, stock_minimo } = data;
@@ -27,7 +25,6 @@ const Material = {
         });
     }
     
-    // Aquí agregaremos luego el update y delete
 };
 
 module.exports = Material;

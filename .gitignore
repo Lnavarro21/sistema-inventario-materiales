@@ -4,8 +4,8 @@ node_modules/
 # Archivos de sistema
 .DS_Store
 
-# Variables de entorno y contraseñas (¡CRÍTICO!)
+# Variables de entorno y contraseñas
 .env
 
-# Base de datos SQLite (No subir datos reales a la nube)
+# Base de datos SQLite
 database.sqlite
