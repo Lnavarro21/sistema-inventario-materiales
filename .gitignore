@@ -1,14 +1,11 @@
-# Dependencias (NUNCA SUBIR ESTO)
+# Dependencias
 node_modules/
 
-# Archivos de sistema y logs
+# Archivos de sistema
 .DS_Store
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# Carpeta de subidas temporales (Excel)
-uploads/
-
-# Variables de entorno (si usaras en el futuro)
+# Variables de entorno y contraseñas (¡CRÍTICO!)
 .env
+
+# Base de datos SQLite (No subir datos reales a la nube)
+database.sqlite
